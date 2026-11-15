@@ -1,0 +1,36 @@
+# Compiled Java Bytecode
+bin/
+target/
+*.class
+
+# Runtime Data Files (Keep the folder structure intact via .gitkeep)
+data/*.txt
+!data/.gitkeep
+
+# Temporary Test Directories
+test_data/
+phase6_test_data/
+temp_*/
+
+# IDE & Editor Files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
